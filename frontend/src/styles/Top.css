@@ -1,0 +1,26 @@
+.top {
+    background-color: rgb(203, 203, 203);
+    padding: 24px;
+    margin-bottom: 2%;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(59, 59, 59);
+}
+
+a:hover {
+    color: black;
+}

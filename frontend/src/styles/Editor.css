@@ -1,0 +1,59 @@
+.editor {
+    background-color: rgb(203, 203, 203);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    border: none;
+    background-color: antiquewhite;
+    height: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    background-color: antiquewhite;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+img {
+    margin-left: 20px;
+    height: 250px;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: wheat;
+    height: 40px;
+    width: 80px;
+    font-weight: 500;
+    font-size: 18px;
+    justify-content: center;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
